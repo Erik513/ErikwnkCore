@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;net8.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>GitHubSelfUpdater</RootNamespace>
+    <AssemblyName>GitHubSelfUpdater</AssemblyName>
+    <Authors>Erik Wink</Authors>
+    <Description>Checks a GitHub repo's latest release for a newer version and can download and swap itself in as a self-contained single-file exe.</Description>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+</Project>
