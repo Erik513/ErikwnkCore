@@ -15,6 +15,7 @@ public sealed class SelfUpdater
     public SelfUpdater(HttpClient httpClient)
     {
         this.httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+        AssemblyResolution.EnsureRegistered();
     }
 
     /// <summary>

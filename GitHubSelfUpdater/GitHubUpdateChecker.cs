@@ -37,6 +37,8 @@ public sealed class GitHubUpdateChecker
         userAgentProductName = repositoryName;
         releasesApiUrl =
             $"https://api.github.com/repos/{repositoryOwner}/{repositoryName}/releases/latest";
+
+        AssemblyResolution.EnsureRegistered();
     }
 
     public async Task<UpdateCheckResult?> CheckForUpdateAsync(
