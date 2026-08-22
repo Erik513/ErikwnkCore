@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GitHubSelfUpdater\GitHubSelfUpdater.csproj" />
+    <ProjectReference Include="..\ErikwnkCore\ErikwnkCore.csproj" />
   </ItemGroup>
 
 </Project>

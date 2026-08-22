@@ -1,12 +1,12 @@
 using System.Reflection;
 
-namespace GitHubSelfUpdater;
+namespace ErikwnkCore.Updater;
 
 /// <summary>
 /// The net48 build references specific NuGet-shipped versions of BCL-facade
 /// assemblies (System.Text.Json and friends) that a modern .NET host already ships
 /// as part of its shared framework, usually at a different exact version - e.g.
-/// GitHubSelfUpdater's net48 build hard-requires System.Text.Json 8.0.0.5, but a
+/// ErikwnkCore.Updater's net48 build hard-requires System.Text.Json 8.0.0.5, but a
 /// net8.0 host only ships 8.0.0.0. .NET's default assembly resolution won't
 /// substitute one for the other on its own and consuming apps have no reason to
 /// know this needs solving, so this acts as a lightweight stand-in for the classic

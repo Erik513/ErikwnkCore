@@ -2,7 +2,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace GitHubSelfUpdater;
+namespace ErikwnkCore.Updater;
 
 /// <summary>
 /// Checks a GitHub repo's "latest release" endpoint for a newer tagged version.

@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Net.Http;
 
-namespace GitHubSelfUpdater;
+namespace ErikwnkCore.Updater;
 
 /// <summary>
 /// Downloads a new build and swaps it in for the currently running exe. Windows

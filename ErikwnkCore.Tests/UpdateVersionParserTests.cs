@@ -1,4 +1,4 @@
-namespace GitHubSelfUpdater.Tests;
+namespace ErikwnkCore.Updater.Tests;
 
 public sealed class UpdateVersionParserTests
 {

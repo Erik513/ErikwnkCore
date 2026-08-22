@@ -5,10 +5,10 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>GitHubSelfUpdater</RootNamespace>
-    <AssemblyName>GitHubSelfUpdater</AssemblyName>
+    <RootNamespace>ErikwnkCore</RootNamespace>
+    <AssemblyName>ErikwnkCore</AssemblyName>
     <Authors>Erik Wink</Authors>
-    <Description>Checks a GitHub repo's latest release for a newer version and can download and swap itself in as a self-contained single-file exe.</Description>
+    <Description>Non-UI logic shared across Erik Wink's apps - GitHub self-update checking, single-instance detection, sleep prevention.</Description>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net48'">

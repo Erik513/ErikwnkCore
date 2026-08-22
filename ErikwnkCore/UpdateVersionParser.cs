@@ -1,4 +1,4 @@
-namespace GitHubSelfUpdater;
+namespace ErikwnkCore.Updater;
 
 public static class UpdateVersionParser
 {
